@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.myapplication1.activities.ChatuspacActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.example.myapplication1.forchat.ChatDMActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.example.myapplication1.activities.GPPActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.example.myapplication1.activities.PPActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.example.myapplication1.activities.AddpillsActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.example.myapplication1.activities.GetpillsActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.example.myapplication1.activities.PillsActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.example.myapplication1.activities.ProfdocActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.example.myapplication1.activities.ProfpacActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.example.myapplication1.activities.AddZabolActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.example.myapplication1.activities.GetimgActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.example.myapplication1.activities.ListimgActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.example.myapplication1.activities.Rega2Activity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.example.myapplication1.activities.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.MaterialComponents">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.example.myapplication1.medicine.MedicineActivity"
+            android:theme="@style/Theme.MaterialComponents"/>
+
+        <activity android:name="com.example.myapplication1.addmedicine.AddMedicineActivity"
+            android:theme="@style/Theme.MaterialComponents"/>
+
+        <activity android:name=".alarm.ReminderActivity"
+            android:theme="@style/Theme.MaterialComponents"/>
+
+        <activity android:name="com.example.myapplication1.report.MonthlyReportActivity"
+            android:theme="@style/Theme.MaterialComponents"/>
+
+        <activity
+            android:name="com.example.myapplication1.activities.AnalizdocActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.example.myapplication1.activities.analizpacActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.example.myapplication1.activities.Terapy2Activity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.example.myapplication1.activities.TerapyActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.example.myapplication1.activities.Profile2Activity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.example.myapplication1.activities.ProfileActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.example.myapplication1.activities.ListActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.example.myapplication1.activities.Enter2Activity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.example.myapplication1.activities.EnterActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+        <activity
+            android:name="com.example.myapplication1.activities.RegisterActivity"
+            android:theme="@style/Theme.MaterialComponents" />
+    </application>
+
+</manifest>

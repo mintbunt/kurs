@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- These are the options displayed in the gender drop-down Spinner -->
+    <string-array name="array_gender_options">
+        <item>@string/gender_unknown</item>
+        <item>@string/gender_no</item>
+        <item>@string/gender_yes</item>
+    </string-array>
+    <string-array name="array_gender_options1">
+        <item>@string/gender_unknown</item>
+        <item>@string/gender_male</item>
+        <item>@string/gender_female</item>
+    </string-array>
+
+        <array name="caregiver_options">
+            <item>Help %s</item>
+            <item>Delete contact</item>
+            <item>Cancel</item>
+        </array>
+
+        <array name="intervals_array">
+            <item>Каждые 24 часа</item>
+            <item>Каждые 12 часов</item>
+            <item>Каждые 8 часов</item>
+            <item>Каждые 6 часов</item>
+            <item>Каждые 4 часа</item>
+            <item>Каждые 2 часа</item>
+        </array>
+
+        <array name="medications_shape_array">
+            <item>капсула</item>
+            <item>таблетка</item>
+            <item>крем</item>
+            <item>сироп</item>
+            <item>спрей</item>
+            <item>укол</item>
+            <item>порошок</item>
+            <item>гель</item>
+            <item>ингаляция</item>
+            <item>порошок</item>
+        </array>
+        <array name="pill_cycle_formats">
+            <item>21+7</item>
+            <item>22+6</item>
+            <item>23+5</item>
+            <item>24+4</item>
+            <item>26+2</item>
+            <item>28+0</item>
+            <item>35+7</item>
+            <item>42+7</item>
+            <item>63+7</item>
+            <item>84+7</item>
+            <item>14+14</item>
+        </array>
+        <array name="week_days_abbreviations">
+            <item>пн</item>
+            <item>вт</item>
+            <item>ср</item>
+            <item>чт</item>
+            <item>пт</item>
+            <item>сб</item>
+            <item>вс</item>
+        </array>
+
+</resources>

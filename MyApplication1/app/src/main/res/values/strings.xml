@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">My Application1</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_doc_enter">DocEnterActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_pac_enter">PacEnterActivity</string>
+    <string name="title_activity_doc_enter2">DocEnter2Activity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_enter">EnterActivity</string>
+    <string name="title_activity_login2">LoginActivity2</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="gender_unknown">Неизвестно</string>
+    <string name="gender_no">Нет</string>
+    <string name="gender_yes">Да</string>
+    <string name="gender_male">Мужской</string>
+    <string name="gender_female">Женский</string>
+    
+    <string name="title_medicine_name">Наименование</string>
+    <string name="hint_enter_med_name">Введите лекарство</string>
+    <string name="medicine_days">Дни приема лекарств</string>
+    <string name="title_treatment_deadline">Окончание</string>
+    <string name="title_continuous_use">Продолжительное принятие</string>
+    <string name="title_reminder">Напоминание</string>
+    <string name="new_medicine">Новое лекарство</string>
+    <string name="every_day">Каждый день</string>
+    <string name="no_medicine_added">Нет лекарств</string>
+    <string name="loading_tasks_error">Ошибка</string>
+    <string name="successfully_saved_me_message">Лекарство добавлено успешно</string>
+    <string name="successfully_deleted_message">Лекарство удалено успешно</string>
+    <string name="reminder_message">Время принять ваше лекарство!</string>
+    <string name="ignored">Пропущено</string>
+    <string name="taken">Принято</string>
+    <string name="all">Все</string>
+    <string name="menu_filter">Фильтер</string>
+    <string name="all_label">Все лекарства</string>
+    <string name="ignore_label">Пропущенное лекарство</string>
+    <string name="taken_label">Принятое лекарство</string>
+    <string name="no_history">История не найдена</string>
+    <string name="no_taken_med_history">Вы еще не приняли ни одного лекарства</string>
+    <string name="no_ignored_history">Хорошая работа!</string>
+    <string name="menu_stats">Журнал</string>
+
+    <string name="URL_USUARIOS"> http://192.168.64.2/g/chat/userschat.php </string>
+
+    <string name="URL_ENVIAR_MENSAJE"> http://192.168.64.2/g/chat/insertmes.php </string>
+
+    <string name="URL_OBTENER_MENSAJES"> http://192.168.64.2/g/chat/obtainmes.php </string>
+</resources>
